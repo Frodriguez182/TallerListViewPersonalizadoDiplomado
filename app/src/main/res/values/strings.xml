@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Carros</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tituloOpciones">OPCIONES</string>
+    <string-array name="lstOpciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+    </string-array>
+    <string name="registrar">Registrar</string>
+    <string name="listar">Listar</string>
+
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="lblPlaca">Placa</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblColor" translatable="false">Color</string>
+    <string name="lblPrecio">Precio</string>
+    <string-array name="marca_spinner">
+        <item>@string/kia</item>
+        <item>@string/chevrolet</item>
+        <item>@string/renault</item>
+    </string-array>
+    <string name="kia" translatable="false">Kia</string>
+    <string name="chevrolet" translatable="false">Chevrolet</string>
+    <string name="renault" translatable="false">Renault</string>
+    <string-array name="modelo_spinner">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+
+    </string-array>
+    <string-array name="color_spinner">
+        <item>@string/negro</item>
+        <item>@string/rojo</item>
+        <item>@string/blanco</item>
+
+    </string-array>
+    <string name="negro">negro</string>
+    <string name="blanco">blanco</string>
+    <string name="rojo">Rojo</string>
+    <string name="msjTitulo">Notificación</string>
+    <string name="msjCuerpo">Carro guardado correctamente</string>
+    <string name="msjError1Cuerpo">Los 3 primeros caracteres de la placa deben ser letras</string>
+    <string name="msjError2Cuerpo">Los 3 últimos caracteres de la placa deben ser números</string>
+    <string name="msjError3Cuerpo">El campo placa no puede estar vacío</string>
+    <string name="msjError4Cuerpo">El campo placa debe contener 3 caracteres y 3 Numeros</string>
+    <string name="msjError5Cuerpo">El campo del Precio no debe estar vacio</string>
+
+    <string name="title_activity_listar">Listar</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+</resources>

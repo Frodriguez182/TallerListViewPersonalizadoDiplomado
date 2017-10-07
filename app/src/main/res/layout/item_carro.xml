@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="145dp"
+        android:layout_height="158dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPlaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.82"
+            android:text="Placa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtPlaca"
+            android:layout_below="@+id/txtPlaca"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Marca"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_alignStart="@+id/txtMarca"
+            android:layout_below="@+id/txtMarca"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Modelo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_below="@+id/txtModelo"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Color"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_below="@+id/txtColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Precio"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>
